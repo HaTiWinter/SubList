@@ -20,9 +20,9 @@
 
 #### Windows
 
-* [Github](https://github.com/HaTiWinter/SubList/releases/download/20240601/SubList.exe)
-* [阿里云盘（63qk）](https://www.alipan.com/s/FrG7hRxQsmf)
-* [天翼云盘（q5g2）](https://cloud.189.cn/t/i2yEjeV7vaEv)
+* [Github](https://github.com/HaTiWinter/SubList/releases/download/20240602/SubList.exe)
+* [阿里云盘（t84d）](https://www.alipan.com/s/vLfz78UV2cp)
+* [天翼云盘（qw9h）](https://cloud.189.cn/t/mayAve7z2UFf)
 
 ### 手动安装
 
