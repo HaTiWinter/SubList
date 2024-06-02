@@ -4,10 +4,10 @@
 
 ## 功能
 
-1. [根据 srt 字幕切分 wav 音频](#split)，生成 list 映射。
-2. [根据 list 映射合并 wav 音频](#merge)，生成新的 list 映射。
-3. [根据 list 映射和 wav 音频打包](#pack)，生成适用于 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 的数据集。
-4. [直接根据 srt 字幕和 wav 音频打包](#integrator)，生成适用于 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 的数据集。
+1. **根据 srt 字幕切分 wav 音频，生成 list 映射。**
+2. **根据 list 映射合并 wav 音频，生成新的 list 映射。**
+3. **根据 list 映射和 wav 音频打包，生成适用于 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 的数据集。**
+4. **直接根据 srt 字幕和 wav 音频打包，生成适用于 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 的数据集。**
 
 ## 安装
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## 使用
 
-### 根据 srt 字幕切分 wav 音频 {#split}
+### 根据 srt 字幕切分 wav 音频
 
 ``` bash
 # split.py
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python split.py <input_file> <output_dir>
 ```
 
-### 根据 list 映射合并 wav 音频 {#merge}
+### 根据 list 映射合并 wav 音频
 
 ``` bash
 # merge.py
@@ -50,7 +50,7 @@ python split.py <input_file> <output_dir>
 python merge.py <input_dir> <output_dir>
 ```
 
-### 根据 list 映射和 wav 音频打包 {#pack}
+### 根据 list 映射和 wav 音频打包
 
 ``` bash
 # pack.py
@@ -59,7 +59,7 @@ python merge.py <input_dir> <output_dir>
 python pack.py <input_dir> <output_dir>
 ```
 
-### 直接根据 srt 字幕和 wav 音频打包 {#integrator}
+### 直接根据 srt 字幕和 wav 音频打包
 
 ``` bash
 # integrator.py
