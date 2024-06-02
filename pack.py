@@ -5,7 +5,7 @@ from pydub import AudioSegment
 from tqdm import tqdm
 from uuid import uuid4
 
-set_languages(langs=['zh', 'en'])
+set_languages(langs=["zh", "en"])
 
 
 def list_pack_wav(mapping_list_path, output_dir, speaker):
