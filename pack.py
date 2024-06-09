@@ -19,7 +19,7 @@ def list_pack_wav(mapping_list_path, output_dir, speaker):
             text = line.split('|')[1]
             language = classify(text)[0].upper()
             new_audio_file_name = f"{speaker}_{uuid4()}.wav"
-            new_mapping_list.write(f"./{output_dir.as_posix()}/{new_audio_file_name}|{speaker}|{language}|{text}")
+            new_mapping_list.write(f"./{output_dir.parts[-2]}/{output_dir.parts[-1]}/{new_audio_file_name}|{speaker}|{language}|{text}")
 
             audio_path = line.split('|')[0]
             source_audio_path = mapping_list_path.parent / audio_path
