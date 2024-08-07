@@ -21,7 +21,6 @@
 #### Windows
 
 * [Github](https://github.com/HaTiWinter/SubList/releases/download/20240602/SubList.exe)
-* [天翼云盘（qw9h）](https://cloud.189.cn/t/mayAve7z2UFf)
 
 ### 手动安装
 
